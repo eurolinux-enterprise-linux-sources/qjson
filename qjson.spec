@@ -1,6 +1,6 @@
 Name:           qjson
 Version:        0.8.1
-Release:        2%{?dist}
+Release:        4%{?dist}
 Summary:        A qt-based library that maps JSON data to QVariant objects
 
 Group:          Development/Languages
@@ -77,6 +77,12 @@ rm -rf %{buildroot}
 %{_libdir}/cmake/qjson/
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.8.1-4
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.8.1-3
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.8.1-2
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
